@@ -1,0 +1,77 @@
+body {
+    background-color: cadetblue;
+}
+header {
+    background-color: cadetblue;
+    /* flex: 0 0 40px;
+    justify-content: center; */
+    /* text-align: center; */
+    display:flex;
+    /* color: black; */
+}
+.title{
+    flex:2;
+    text-align: center;
+    align-items: center;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 2em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+.logo{
+    height: 100; 
+    width: 100;
+    flex:1
+
+}
+main {
+    background-color: cadetblue;
+    /* flex-basis: 20%; */
+    display: flex;
+    flex: 2;
+    /* border: 3px dotted yellow */
+}
+
+.bigbox {
+    display:flex;
+    flex-direction: column;
+    border: 3px dotted black;
+}
+.fishtank {
+    display:flex;
+    border: 3px dotted darkblue;
+    margin: 30px; 
+    /* flex-basis: 20%;*/
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fish{
+    flex: 1;
+}
+.quote {
+    display:flex;
+    color: black;
+    margin: 30px; 
+    border: 3px dotted darkcyan
+}
+.harvest {
+    /* display: flex;
+    flex-wrap: wrap; */
+    color: black;
+    margin: 30px; 
+    border: 3px dotted darkgrey
+}
+aside {
+    border: 3px dotted black;
+    background-color: grey;
+    margin: 30px; 
+    flex: 1;
+}   
+.img {
+    width: 50px;
+    height: 50px;
+}

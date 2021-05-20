@@ -1,0 +1,52 @@
+<!-- To Do:
+    What are the components?
+        1) Different Types of Fish
+        2) Harvest Sites
+        3) Tank Maintenance (aside)
+        4) Harvest sites quotes    
+    What do you think the layout of the site should be?
+        1) section with a fish list
+        2) section for travel tips
+        3) section for harvest location
+        4) aside for tank maintenance on the right side
+        5) header -- headline "your name here", logo/image
+
+    What are the properties of each fish that you will be representing in your HTML?
+        a. img
+        b. species
+        c. length
+        d. name
+        e. harvest location
+        f. diet
+    What are the properties of the fish care tips that Martin wants on the side?
+        a. tip_text
+        b. info_url
+        c. title
+    What are the properties of the locations Martin has visited?
+        a. title
+        b. name
+        c. location_url
+        d. access_difficulty
+    
+    What should be the class names for each?
+    
+    1) 
+    Which semantic tags should you use?
+        1) main
+        2)  header
+        3) footer
+        4) article
+        5) aside
+        6) section
+
+    How can we use Flexbox to build a better layout of fish and locations?
+        
+    
+    Which CSS files should be created? Consider the @import keyword to modularize your styling.
+        1) lists components (fish, quotes, locations)
+        2) main (typesetting, fonts, etc.)
+        3) aside -->
+
+
+
+
